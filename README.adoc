@@ -1,1 +1,6 @@
 = The three goals to achieve the Java persistence mastering
+:toc: auto
+
+== Business
+== Isolation
+== Performance
