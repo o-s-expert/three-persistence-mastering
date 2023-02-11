@@ -112,3 +112,7 @@ NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence
 == Conclusion
 
 Understand the three rules and focus on simplicity.
+
+* https://www.amazon.com/dp/173210221X/[A Philosophy of Software Design]
+
+image::conclusion.jpeg[]
