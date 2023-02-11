@@ -67,6 +67,14 @@ Just enough software Architecture: A risk-driven Approach:
 
 === When Layer can become an enemy
 
+More code:
+
+* More Work
+* More code to maintain
+* More bugs
+* We're terrible at seeing the future; go to evolutionary architecture instead.
+** Unknown unknowns
+
 == Performance
 
 === Take advantage of the database
