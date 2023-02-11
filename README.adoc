@@ -77,8 +77,38 @@ More code:
 
 == Performance
 
+* Object-relational impedance mismatch
+** Polymorphism, types, conversion, mapper
+** 90% is on that conversion
+
 === Take advantage of the database
+
+> Hibernate and JPA were designed to work well in combination with handwritten SQL.
+https://www.youtube.com/watch?v=pc6QIwx0EL0[ORM, 20 years later by Gavin King]
+
+* NoSQL
+** Key-value
+** Wide-column
+** Document
+** Graph
+** Time Series
+** Even more
+* SQL
+* NewSQL
+* CAP
+** PACELC
 
 === Models
 
+NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence
+
+=== Challenges (Leak of knowledge)
+
+* Maturity Models
+* Design Patterns
+** Migrations
+* CDC
+
 == Conclusion
+
+Understand the three rules and focus on simplicity.
