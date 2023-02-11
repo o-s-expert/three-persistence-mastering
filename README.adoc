@@ -42,6 +42,15 @@ image::https://domainstorytelling.org/assets/images/home/metropolis-1-animated.g
 
 == Isolation
 
+* We are keeping the code safe from technology.
+
+
+Just enough software Architecture: A risk-driven Approach:
+
+> To be successful at combating the scale and complexity of software in the next decade, developers will need improved weapons... in three categories: partitioning, knowledge, and *abstraction*.
+
+> *Abstraction* can effectively combat complexity and scale because it shrinks problems, and smaller problems are easier to reason about it.
+
 === Abstraction
 
 === Layers, Layers, Layers
