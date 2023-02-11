@@ -30,9 +30,13 @@ Software Engineer Definition by  https://www.amazon.com/dp/B0BLXCXT3R/[Modern So
 * https://www.amazon.com.br/dp/1098100131[Learning Domain-Driven Design: Aligning Software Architecture and Business Strategy]
 * https://www.infoq.com/minibooks/domain-driven-design-quickly/[Domain Driven Design Quickly]
 
-=== Storytelling
+=== Understanding and converting to the code
+
+There are several, such as story Storming, Story Mapping, and UML. My favorite one is Domain storytelling.
 
 * https://www.amazon.com.br/dp/0137458916[Domain Storytelling: A Collaborative, Visual, and Agile Way to Build Domain-Driven Software]
+
+The tool: https://egon.io/[Egon.io]
 
 == Isolation
 
