@@ -2,5 +2,23 @@
 :toc: auto
 
 == Business
+
+=== DDD
+
+=== Storytelling
+
 == Isolation
+
+=== Abstraction
+
+=== Layers, Layers, Layers
+
+=== When Layer can become an enemy
+
 == Performance
+
+=== Take advantage of the database
+
+=== Models
+
+== Conclusion
