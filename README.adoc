@@ -3,9 +3,28 @@
 
 == Business
 
+* The reason that we're coding is the goal.
+
+Software Engineer Definition by  https://www.amazon.com/dp/B0BLXCXT3R/[Modern Software Engineering's] book:
+
+> Software Engineering is the application of an empirical, scientific approach to finding efficient, economic solutions to practical problems in software.
+
 === DDD
 
+* Bringing the code close to the business.
+* There are tactical and strategic perspectives
+
+* *Strategic*: it's a business language: Bounded Context, ubiquitous language, context Maps.
+* *Tactical*: implementation, classes, and modules.
+
+==== Books
+
+* https://www.amazon.com.br/dp/1098100131[Learning Domain-Driven Design: Aligning Software Architecture and Business Strategy]
+* https://www.infoq.com/minibooks/domain-driven-design-quickly/[Domain Driven Design Quickly]
+
 === Storytelling
+
+* https://www.amazon.com.br/dp/0137458916[Domain Storytelling: A Collaborative, Visual, and Agile Way to Build Domain-Driven Software]
 
 == Isolation
 
