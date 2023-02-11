@@ -17,6 +17,14 @@ Software Engineer Definition by  https://www.amazon.com/dp/B0BLXCXT3R/[Modern So
 * *Strategic*: it's a business language: Bounded Context, ubiquitous language, context Maps.
 * *Tactical*: implementation, classes, and modules.
 
+==== Patterns
+
+* Entities
+* Value Object
+* Services
+* Repository
+* Aggregator
+
 ==== Books
 
 * https://www.amazon.com.br/dp/1098100131[Learning Domain-Driven Design: Aligning Software Architecture and Business Strategy]
