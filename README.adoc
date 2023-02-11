@@ -58,6 +58,13 @@ Just enough software Architecture: A risk-driven Approach:
 
 === Layers, Layers, Layers
 
+* Unstructured Code Monolith
+* Modular Monolith
+* Layered Architecture
+** Mapper
+** DAO
+** Repository
+
 === When Layer can become an enemy
 
 == Performance
