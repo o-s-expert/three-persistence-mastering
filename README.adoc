@@ -1,7 +1,7 @@
 = The three goals to achieve the Java persistence mastering
 :toc: auto
 
-== Business
+== 1 Business
 
 * The reason that we're coding is the goal.
 
@@ -42,9 +42,9 @@ The tool: https://egon.io/[Egon.io]
 
 image::https://domainstorytelling.org/assets/images/home/metropolis-1-animated.gif[The tool example]
 
-== Isolation
+== 2 Isolation
 
-* We are keeping the code safe from technology.
+* We are keeping the business safe from technology.
 
 * Hexagonal architecture
 * Ports and Adaptors
@@ -77,7 +77,7 @@ More code:
 * We're terrible at seeing the future; go to evolutionary architecture instead.
 ** Unknown unknowns
 
-== Performance
+== 3 Performance
 
 * Object-relational impedance mismatch
 ** Polymorphism, types, conversion, mapper
