@@ -9,6 +9,8 @@ Software Engineer Definition by  https://www.amazon.com/dp/B0BLXCXT3R/[Modern So
 
 > Software Engineering is the application of an empirical, scientific approach to finding efficient, economic solutions to practical problems in software.
 
+* Rich vs Anemic model
+
 === DDD
 
 * Bringing the code close to the business.
