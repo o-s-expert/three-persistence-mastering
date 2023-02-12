@@ -4,7 +4,6 @@ import java.util.List;
 
 public class ReaderService {
 
-    private ReaderRepository repository;
     public void buy(Order order) {
         Reader user = order.getUser();
         List<Product> products = order.getProducts();
