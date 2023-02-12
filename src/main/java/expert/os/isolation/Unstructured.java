@@ -6,19 +6,18 @@ import java.util.Map;
 public class Unstructured {
 
     public static void main(String[] args) {
+        User otavio = new User("otaviojava", "Otavio Santana");
 
-        User user = new User("otaviojava", "Otavio Santana");
         Map<String, Object> entry = new HashMap<>();
-        entry.put("id", user.id());
-        entry.put("name", user.name());
-        Database.INSTANCE.insert(user.id(), entry);
+        entry.put("id", otavio.id());
+        entry.put("name", otavio.name());
 
-        Map<String, Object> map = Database.INSTANCE.find("otaviojava");
-        User otavio = null;
-        if (!map.isEmpty()) {
-            otavio = new User((String) map.get("id"), (String) map.get("name"));
+        Database.INSTANCE.insert(otavio.id(), entry);
+
+        Map<String, Object> retrieve = Database.INSTANCE.retrieve("otaviojava");
+        if(!retrieve.isEmpty()) {
+            User user = new User((String) retrieve.get("id"), (String) retrieve.get("name"));
+            System.out.println("User found: " + user);
         }
-
-        System.out.println("End of operation " + otavio);
     }
 }
