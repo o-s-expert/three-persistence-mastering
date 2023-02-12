@@ -40,7 +40,7 @@ There are several, such as story Storming, Story Mapping, and UML. My favorite o
 
 The tool: https://egon.io/[Egon.io]
 
-image::https://domainstorytelling.org/assets/images/home/metropolis-1-animated.gif[The tool example]
+image::storytelling.gif[Library's case]
 
 == 2 Isolation
 
