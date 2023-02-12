@@ -1,4 +1,4 @@
 package expert.os.business;
 
-public class Payment {
+public interface Payment {
 }

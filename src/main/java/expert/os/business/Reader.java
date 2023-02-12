@@ -1,20 +1,19 @@
 package expert.os.business;
 
-public class MovieGoer {
+public class Reader {
 
     private final String nickname;
 
     private String city;
 
+    private String language;
+
     private Payment payment;
 
-    public MovieGoer(String nickname, String city, Payment payment) {
+    public Reader(String nickname, String city, String language, Payment payment) {
         this.nickname = nickname;
         this.city = city;
+        this.language = language;
         this.payment = payment;
-    }
-
-    public void pay(Money price) {
-        //
     }
 }
