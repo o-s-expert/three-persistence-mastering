@@ -102,7 +102,7 @@ https://www.youtube.com/watch?v=pc6QIwx0EL0[ORM, 20 years later by Gavin King]
 
 === Models
 
-NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence
+https://www.amazon.com/dp/0321826620/[NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence]
 
 === Challenges (Leak of knowledge)
 
