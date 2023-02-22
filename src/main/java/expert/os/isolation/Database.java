@@ -14,6 +14,9 @@ public enum Database {
     public void insert(String key, Map<String, Object> entry) {
         Objects.requireNonNull(key, "key is required");
         Objects.requireNonNull(entry, "entry is required");
+        if(retrieve(key) != null) {
+            throw new IllegalStateException("You cannot overwrite info, please, use update method instead");
+        }
         this.data.put(key, entry);
     }
 
