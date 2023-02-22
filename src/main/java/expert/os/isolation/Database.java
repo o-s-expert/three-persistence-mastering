@@ -18,7 +18,12 @@ public enum Database {
     }
 
     public void update(String key, Map<String, Object> entry) {
-        this.insert(key, entry);
+        Objects.requireNonNull(key, "key is required");
+        Objects.requireNonNull(entry, "entry is required");
+        if (retrieve(key) == null) {
+            throw new IllegalStateException("You cannot update a data that does not exist");
+        }
+        this.data.put(key, entry);
     }
 
     public void delete(String key) {
