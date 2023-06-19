@@ -18,7 +18,7 @@
         <maven.surefire.plugin.version>2.22.2</maven.surefire.plugin.version>
         <microstream.data.version>0.0.2</microstream.data.version>
         <argLine> --add-opens java.base/java.lang=ALL-UNNAMED --add-exports java.base/sun.nio.ch=ALL-UNNAMED </argLine>
-        <weld.se.core.version>5.1.0.Final</weld.se.core.version>
+        <weld.se.core.version>5.1.1.Final</weld.se.core.version>
         <smallrye.config.version>3.1.1</smallrye.config.version>
     </properties>
 
